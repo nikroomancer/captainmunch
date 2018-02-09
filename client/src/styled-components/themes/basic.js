@@ -6,12 +6,12 @@ export const theme = {
     background: 'transparent',
     paddingTopOnScroll: '0.3rem',
     paddingBottomOnScroll: '0.3rem',
-    backgroundOnScroll: 'black',
+    backgroundOnScroll: '#5B527F',
     boxShadowOnScroll:
       '0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)'
   },
   NavBrand: {
-    color: '#f7f3d5',
+    color: '#FCFBE3',
     paddingTop: '0.3125rem',
     paddingBottom: '0.3125rem',
     marginRight: '1rem',
@@ -20,6 +20,10 @@ export const theme = {
   NavContainer: {
     paddingRight: '15px',
     paddingLeft: '15px'
+  },
+  ContentContainer: {
+    boxShadow: '0 2px 5px 5px rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)'
+    // backgroundColor: '#FBFAEF'
   },
   MainInnerContainer: {
     padding: '0.7rem',

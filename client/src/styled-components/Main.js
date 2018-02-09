@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Column } from './grid';
-import heroimage from '../img/heroimage.jpg';
+import heroimage from '../img/heroimage-min.jpg';
 
 export const MainContainer = Column.extend`
   perspective: 1px;
@@ -64,7 +64,8 @@ export const ContentContainer = styled.div`
   position: relative;
   background-color: white;
   z-index: 1;
-  height: 1000px;
+  box-shadow: ${props => props.theme.ContentContainer.boxShadow};
+  background-color: ${props => props.theme.ContentContainer.backgroundColor};
 `;
 
 export const MainInnerContainer = Column.extend`
