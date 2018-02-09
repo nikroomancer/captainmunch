@@ -77,4 +77,8 @@ export const MainInnerContainer = Column.extend`
   padding: ${props => props.theme.MainInnerContainer.padding};
   padding-left: ${props => props.theme.MainInnerContainer.paddingLeft};
   padding-right: ${props => props.theme.MainInnerContainer.paddingRight};
+  .title {
+    text-align: center;
+    font-size: 2rem;
+  }
 `;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Row } from '../../styled-components/grid';
+import About from './About/About';
 import {
   MainContainer,
   ParallaxContainer,
@@ -23,12 +24,7 @@ export default class Body extends Component {
             </ParallaxText>
             <ContentContainer>
               <Row>
-                <MainInnerContainer xs="12">
-                  Scroll Up and Down this page to see the parallax scrolling
-                  effect. This div is just here to enable scrolling. Tip: Try to
-                  remove the background-attachment property to remove the
-                  scrolling effect.
-                </MainInnerContainer>
+                <About />
               </Row>
             </ContentContainer>
           </MainContainer>

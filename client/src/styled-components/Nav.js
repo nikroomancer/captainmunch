@@ -62,3 +62,39 @@ export const NavBrand = styled.a`
     opacity: 0.6;
   }
 `;
+
+export const NavLinks = styled.div`
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  align-items: center;
+  ul {
+    flex-direction: row;
+    line-height: 1.8;
+    margin-right: auto;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 0;
+    li {
+      color: ${props => props.theme.NavBrand.color};
+      display: inline-block;
+      line-height: inherit;
+      white-space: nowrap;
+      text-decoration: none;
+      cursor: pointer;
+      font-weight: bolder;
+      pointer-events: auto;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        color: ${props => darken(0.15, props.theme.NavBrand.color)};
+        opacity: 0.6;
+      }
+      a {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+      }
+    }
+  }
+`;

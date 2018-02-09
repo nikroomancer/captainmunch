@@ -4,8 +4,8 @@ export const theme = {
     borderRadius: '2px',
     boxShadow: 'none',
     background: 'transparent',
-    paddingTopOnScroll: '0.3rem',
-    paddingBottomOnScroll: '0.3rem',
+    paddingTopOnScroll: '0.2rem',
+    paddingBottomOnScroll: '0.2rem',
     backgroundOnScroll: '#5B527F',
     boxShadowOnScroll:
       '0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)'
@@ -26,7 +26,7 @@ export const theme = {
     // backgroundColor: '#FBFAEF'
   },
   MainInnerContainer: {
-    padding: '0.7rem',
+    padding: '1.5rem',
     paddingRight: 'calc(0.7rem + 15px)',
     paddingLeft: 'calc(0.7rem + 15px)'
   },
